@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Padfoot's Timer</h1>
+        <form >
+            <input class="date" type="date">
+            <button class="submit"><i class="fa-solid fa-hourglass-end"></i></button>
+        </form>
+    </header>
+
+    <div class="countdown-container">
+
+        <div class="days-el count-el">
+            <p class="days" id="days">0</p>
+            <span class="annotation">Days</span>
+        </div>
+
+        <div class="hours-el count-el">
+            <p class="hours" id="hours">0</p>
+            <span class="annotation">Hours</span>
+        </div>
+        
+        <div class="minutes-el count-el">
+            <p class="minutes" id="minutes">0</p>
+            <span class="annotation">Minutes</span>
+        </div>
+
+        <div class="seconds-el count-el">
+            <p class="seconds" id="seconds">0</p>
+            <span class="annotation">Seconds</span>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
